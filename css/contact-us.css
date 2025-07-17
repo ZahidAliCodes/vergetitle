@@ -1,0 +1,60 @@
+.services {
+    padding: 128px 0 80px 0;
+    text-align: left;
+}
+
+.title-insurance {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.title-top h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.committed {
+    font-family: var(--font-heading);
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.contact-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 16px;
+    background-color: var(--white);
+    height: 184px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black);
+    padding: 0 0 8px 0;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3366cc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
