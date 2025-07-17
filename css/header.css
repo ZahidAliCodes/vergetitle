@@ -1,0 +1,99 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+    border-bottom: 1px solid #e5e5e5;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 106px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+nav ul li a {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 15.5px;
+    padding: 8px;
+    border-bottom: 1px solid transparent;
+}
+.active-page {
+    font-weight: 500;
+    border-color: var(--text-color);
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* Mobile Nav Overlay */
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background: var(--white);
+    color: var(--text-color);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+}
+
+.mobile-nav.open {
+    transform: translateX(0);
+}
+
+.mobile-nav ul {
+    flex-direction: column;
+    gap: 8px;
+}
+.mobile-nav ul li a {
+    font-size: 20px;
+    padding: 0;
+}
+.mobile-nav nav {
+    padding: 60px 50px;
+}
+.mbl-logo {
+    border-bottom: 1px solid #e5e5e5;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 32px;
+}
+.mt-9 {
+    margin: 32px 0 0 0;
+}
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        color: #243e5f;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 380px) {
+    .mobile-nav {
+        width: 280px;
+    }
+}

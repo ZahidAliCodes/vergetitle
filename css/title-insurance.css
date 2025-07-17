@@ -1,0 +1,70 @@
+.services {
+    padding: 128px 0 64px 0;
+    text-align: left;
+}
+.insurance-cricle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+.title-top {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.title-top h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.committed {
+    font-family: var(--font-heading);
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.title-insurance {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.service-count-main {
+    padding: 32px;
+    border-left: 3px solid var(--white);
+    background-color: var(--white);
+}
+.service-count-main h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-count-main ul {
+    list-style-type: disc;
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.service-count-main ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-text h3,
+.service-text p {
+    margin: 0;
+    padding: 8px;
+}
+@media (max-width: 768px) {
+    .services {
+        padding: 80px 0;
+    }
+    .committed {
+        font-size: 28px;
+    }
+}

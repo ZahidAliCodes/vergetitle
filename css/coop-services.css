@@ -1,0 +1,158 @@
+.services {
+    padding: 128px 0 64px 0;
+    text-align: left;
+}
+.insurance-cricle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+.title-top {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.title-top h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.committed {
+    font-family: var(--font-heading);
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.title-insurance {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.service-count-main {
+    padding: 32px;
+    border-left: 3px solid var(--white);
+    background-color: var(--white);
+}
+.service-count-main h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-count-main ul {
+    list-style-type: disc;
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.service-count-main ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-text h3,
+.service-text p {
+    margin: 0;
+    padding: 8px;
+}
+.table-heading {
+    border-bottom: 1px solid #cccccc;
+    padding: 0 0 16px 0;
+    margin: 0 0 40px 0;
+}
+
+.table-heading h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--black);
+}
+.comparison-table {
+    width: 75%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+.comparison-table td:nth-child(1) {
+    width: 45px;
+    padding: 0;
+    text-align: center;
+}
+.comparison-table td {
+    padding: 10px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.comparison-table th {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #000000de;
+    padding: 10px 16px;
+}
+.comparison-table td {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.1px;
+    color: var(--text-color);
+}
+.services h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black);
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.services h5 a {
+    color: #3366cc;
+    text-decoration: underline;
+}
+.comparison-table th:nth-child(1),
+.comparison-table th:nth-child(2) {
+    background: transparent;
+}
+
+.comparison-table th:nth-child(4),
+.comparison-table td:nth-child(4) {
+    background: var(--white);
+    box-shadow: -20px 0px 30px -17px rgba(0, 0, 0, 0.13), 20px 0px 30px -17px rgba(0, 0, 0, 0.13);
+
+    padding: 16px 16px 18px 16px;
+}
+
+.check img {
+    width: 20px;
+}
+.cross img {
+    width: 12px !important;
+}
+.comparison-table td.check,
+.comparison-table td.cross {
+    text-align: center;
+}
+
+.comparison-table img {
+    width: 24px;
+}
+.comparison-table tr:last-child td {
+    border: none;
+}
+@media (max-width: 768px) {
+    .services {
+        padding: 80px 0;
+    }
+    .committed {
+        font-size: 28px;
+    }
+    .table-main {
+        overflow-y: scroll;
+    }
+}
