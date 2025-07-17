@@ -16,7 +16,7 @@
 }
 .committed {
     font-family: var(--font-heading);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 30px;
     line-height: 140%;
     color: var(--text-color);

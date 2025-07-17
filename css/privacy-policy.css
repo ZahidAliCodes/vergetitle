@@ -1,0 +1,130 @@
+.services {
+    padding: 128px 0 80px 0;
+    text-align: left;
+    overflow: hidden;
+}
+.title-top {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.title-top h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #132F44;
+}
+.committed {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+.committed strong{
+    font-weight: 700;
+    font-family: var(--font-heading);
+
+}
+.pro-text-a a{
+    text-decoration: underline;
+}
+.title-insurance {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.service-count-main {
+    padding: 32px;
+}
+.service-count-main-2{
+    padding: 0 0 0 64px;
+}
+.service-count-main h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-count-main-2 ul,
+.service-count-main ul {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.service-count-main-2 ul li,
+.service-count-main ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+.service-count-main-2 ul li{
+    padding: 4px 0 0 0;
+}
+.service-count-main ul li{
+    padding: 8px 0;
+}
+.service-text h3,
+.service-text p {
+    margin: 0;
+    color: #132F44;
+
+}
+.service-text h3{
+    justify-content: left;
+    padding: 0 8px 0 0 ;
+
+}
+.collted-about p,
+.pro-text a,
+.pro-text{
+    color: #132F44;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.collted-about p strong{
+    font-weight: 500;
+    color: #132F44;
+}
+.service-count-main-2 ul li a{
+    text-decoration: underline;
+    color: var(--text-color);
+}
+.service-count-main-4{
+    padding-top:0 ;
+}
+.service-text {
+    width: 100%;
+    background-color: var(--white);
+    padding: 8px 8px 12px 8px;
+    box-shadow: 0px 4px 34px 0px #00000021;
+}
+.collted-about p{
+    padding: 8px 0;
+}
+.pro-text span {
+    color: #3366cc;
+
+}
+.pro-text-gold a,
+.pro-text-gold{
+    color: #AC5F09;
+}
+.service-count-main-5{
+    padding: 0 0 0 40px;
+}
+.service-count-main ul li a{
+    color: var(--text-color);
+}
+@media (max-width: 768px) {
+    .service-count-main-2 ul li, .service-count-main ul li,
+.collted-about p, .pro-text a, .pro-text {
+    font-size: 12px;
+}
+.title-top h1{
+    font-size: 14px;
+}
+}

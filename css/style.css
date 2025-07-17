@@ -1,11 +1,24 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Merriweather:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Compass Sans';
+  src: url('/Compass Fonts/CompassSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Compass Serif Text';
+  src: url('/Compass Fonts/CompassSerifText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Compass Sans', sans-serif;
+
 }
 a{
   text-decoration: none;
@@ -27,7 +40,7 @@ input,textarea,button{
   --light-bg: #F3F4F5;
   --icon-bg: #e0f0ff;
   --gray: #999999;
-  --font-heading: 'Merriweather', serif;
+  --font-heading: 'Compass Serif Text', serif;
 }
 body {
   background-color: var(--white);
@@ -70,7 +83,7 @@ body {
   font-weight: 400;
   font-size: 48px;
   color: var(--white);
-  line-height: 150%;
+  line-height: 100%;
 
 }
 
@@ -169,7 +182,7 @@ color: var(--black);
 
 .contact p {
 font-weight: 400;
-font-size: 14.5px;
+font-size: 16px;
 line-height: 150%;
 color: #000000;
 padding: 8px 0 0 0;
