@@ -29,6 +29,10 @@ nav ul li a {
     font-size: 16px;
     padding: 8px;
     border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #f3f3f3;
 }
 .active-page {
     font-weight: 500;
@@ -38,8 +42,6 @@ nav ul li a {
 .hamburger-menu {
     display: none;
 }
-
-/* Mobile Nav Overlay */
 .mobile-nav {
     position: fixed;
     top: 0;

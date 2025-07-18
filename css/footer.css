@@ -38,6 +38,7 @@ footer {
     color: var(--black);
 }
 
+
 .about-us small {
     font-size: 10px;
 }
@@ -47,14 +48,29 @@ footer {
 .ft-col-main ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px 20px;
+    gap: 8px;
 }
+.ft-col-main ul li {
+    padding:0 8px;
+    border-left: 1px solid transparent;
+
+}
+
 .ft-col-main ul li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: var(--text-color);
 }
+
+.ft-col-main ul li:hover {
+    border-left: 1px solid #cccccc;
+}
+
+.ft-col-main ul li:hover a {
+    font-weight: 600 !important;
+}
+
 .contact form p {
     font-weight: 400;
     font-size: 12px;

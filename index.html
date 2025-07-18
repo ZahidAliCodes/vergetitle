@@ -61,8 +61,8 @@
                 </h1>
                 <p>Let us partner with you on any size commercial and mixed-use real estate deals.</p>
                 <div class="hero-buttons">
-                    <a href="#" class="btn btn-primary">General Inquiry</a>
-                    <a href="#" class="btn btn-secondary">Place New Order</a>
+                    <a href="#" class="btn btn-secondary">General Inquiry</a>
+                    <a href="#" style="display: none;" class="btn btn-primary">Place New Order</a>
                 </div>
             </div>
         </section>
@@ -70,42 +70,42 @@
         <section class="services">
             <div class="container">
                 <h2>Our Services</h2>
-                <div class="service-item">
-                    <div class="icon-box">
-                        <img src="assets/insurance.svg" alt="insurance" />
+                <a href="title-insurance.html" class="service-link">
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <img src="assets/insurance.svg" alt="insurance" />
+                        </div>
+                        <div class="service-text">
+                            <h3>Title Insurance <i class="fa-regular fa-arrow-right"></i></h3>
+                            <p>
+                                We understand title insurance is an essential part of the closing process. Our policies are backed by the nation’s largest underwriters, plus we offer so much more. From title and closing services, to a
+                                dedicated customer service team with a personalized touch that goes the extra mile, let’s explore how we can work together.
+                            </p>
+                        </div>
                     </div>
-                    <div class="service-text">
-                        <h3>
-                            Title Insurance <a href="title-insurance.html"><i class="fa-regular fa-arrow-right"></i></a>
-                        </h3>
-                        <p>
-                            We understand title insurance is an essential part of the closing process. Our policies are backed by the nation’s largest underwriters, plus we offer so much more. From title and closing services, to a dedicated
-                            customer service team with a personalized touch that goes the extra mile, let’s explore how we can work together.
-                        </p>
+                </a>
+                <a href="coop-services.html" class="service-link">
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <img src="assets/coop.svg" alt="coop" />
+                        </div>
+                        <div class="service-text">
+                            <h3>Coop Services <i class="fa-regular fa-arrow-right"></i></h3>
+                            <p>Our quick turnaround times on Coop transactions minimize costly delays for you and your client. Get access to unparalleled insights with Coop Lien Searches.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="service-item">
-                    <div class="icon-box">
-                        <img src="assets/coop.svg" alt="coop" />
+                </a>
+                <a href="eagle.html" class="service-link">
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <img src="assets/eagle.svg" alt="eagle" />
+                        </div>
+                        <div class="service-text">
+                            <h3>Eagle 9 <i class="fa-regular fa-arrow-right"></i></h3>
+                            <p>The Eagle 9 UCC Cooperative Interest Policy offers unparalleled title insurance coverage tailored specifically for coop transactions, providing extensive protection at a fraction of the cost.</p>
+                        </div>
                     </div>
-                    <div class="service-text">
-                        <h3>
-                            Escrow Services <a href="coop-services.html"><i class="fa-regular fa-arrow-right"></i></a>
-                        </h3>
-                        <p>Our quick turnaround times on Coop transactions minimize costly delays for you and your client. Get access to unparalleled insights with Coop Lien Searches.</p>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="icon-box">
-                        <img src="assets/eagle.svg" alt="eagle" />
-                    </div>
-                    <div class="service-text">
-                        <h3>
-                            Eagle 9 <a href="#"><i class="fa-regular fa-arrow-right"></i></a>
-                        </h3>
-                        <p>The Eagle 9 UCC Cooperative Interest Policy offers unparalleled title insurance coverage tailored specifically for coop transactions, providing extensive protection at a fraction of the cost.</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </section>
 
@@ -121,19 +121,18 @@
                     <div class="f-grid">
                         <div class="form-row">
                             <label for="first_name">Name (required)</label>
-                            <input type="text" id="first_name" name="first_name" placeholder="Your name" required />
+                            <input type="text" id="first_name" name="first_name" placeholder="Your name" />
                         </div>
                         <div class="form-row">
                             <label for="email">Email (required)</label>
-                            <input type="email" id="email" name="email" placeholder="Your email " required />
+                            <input type="email" id="email" name="email" placeholder="Your email" />
                         </div>
                     </div>
                     <div class="form-row">
                         <label for="message">Message (required)</label>
-                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        <textarea id="message" name="message" placeholder="Your message"></textarea>
                     </div>
                     <div class="form-bottom">
-                        <img src="assets/reCAPTCHA 1.svg" alt="reCAPTCHA" />
                         <button type="submit" class="btn-submit">Submit Inquiry</button>
                     </div>
                 </form>
@@ -180,5 +179,6 @@
             </div>
         </footer>
         <script src="js/header.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
