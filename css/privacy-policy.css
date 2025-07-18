@@ -38,13 +38,23 @@
     padding: 32px;
 }
 .service-count-main-2{
-    padding: 0 0 0 64px;
+    padding: 0 0 0 80px;
 }
 .service-count-main h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: var(--text-color);
+}
+.direct-ident ul li strong{
+    font-weight: 500;
+}
+.direct-ident{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.use-your-info-b p{
+    padding-top: 6px;
 }
 .service-count-main-2 ul,
 .service-count-main ul {
@@ -105,14 +115,13 @@
 .collted-about p{
     padding: 8px 0;
 }
+.service-count-main-2 ul li a,
+.pro-text a,
+.direct-ident span,
 .pro-text span {
     color: #3366cc;
+}
 
-}
-.pro-text-gold a,
-.pro-text-gold{
-    color: #AC5F09;
-}
 .service-count-main-5{
     padding: 0 0 0 40px;
 }
@@ -120,11 +129,11 @@
     color: var(--text-color);
 }
 @media (max-width: 768px) {
-    .service-count-main-2 ul li, .service-count-main ul li,
-.collted-about p, .pro-text a, .pro-text {
-    font-size: 12px;
+    .service-count-main-2,
+.service-count-main {
+    padding: 20px;
 }
-.title-top h1{
-    font-size: 14px;
-}
+    .services {
+        padding: 80px 0;
+    }
 }

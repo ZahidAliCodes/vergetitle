@@ -32,7 +32,9 @@ button {
     outline: none;
     background-color: transparent;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
     --primary: #273c5b;
     --text-color: #243e5e;
@@ -47,7 +49,9 @@ button {
 body {
     background-color: var(--white);
 }
-
+#contact-form {
+  scroll-margin-top: 100px; /* Yeh offset dega */
+}
 .container {
     max-width: 840px;
     margin: 0 auto;
